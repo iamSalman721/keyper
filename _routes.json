@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "description": "Keyper - Secure Credential Management routing configuration",
+  "include": [
+    "/*"
+  ],
+  "exclude": [
+    "/assets/*",
+    "/favicon.ico",
+    "/robots.txt",
+    "/placeholder.svg"
+  ]
+}

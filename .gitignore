@@ -1,0 +1,58 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Environment variables - SECURITY CRITICAL
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+
+# Sensitive files
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+config/secrets.yml
+credentials.json
+
+# Editor directories and files
+.vs
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.vs/slnx.sqlite
+
+# Backup files (might contain secrets)
+backup-before-cleanup
+credentials-to-remove.txt
+
+# Wrangler secrets
+.dev.vars
+
+# Security-sensitive documentation (keep encrypted versions only)
+CONFIDENTIAL.md
+CHANGELOG.md
+EMERGENCY_ACCESS.md
+EMERGENCY_ADMIN_GUIDE.md
+docs/EMERGENCY_ACCESS.md

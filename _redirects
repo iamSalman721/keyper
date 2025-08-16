@@ -1,0 +1,11 @@
+# Keyper - SPA Redirect Configuration
+# Made with ❤️ by Pink Pixel
+
+# Handle SPA routing - redirect all non-asset requests to index.html
+/*    /index.html   200
+
+# Optional: Redirect www to non-www (uncomment and modify domain as needed)
+# https://www.keyper.yourdomain.com/*  https://keyper.yourdomain.com/:splat  301!
+
+# Optional: Force HTTPS (uncomment if needed)
+# http://keyper.yourdomain.com/*  https://keyper.yourdomain.com/:splat  301!
