@@ -64,8 +64,8 @@
     "test:coverage": "vitest run --coverage",
     "start": "node bin/keyper.js",
     "prepublishOnly": "npm run build",
-    "deploy": "wrangler pages deploy dist --project-name keyper",
-    "deploy:preview": "wrangler pages deploy dist --project-name keyper-preview",
+    "deploy": "wrangler pages deploy dist --project-name keyper-prod",
+    "deploy:preview": "wrangler pages deploy dist --project-name keyper-prod",
     "deploy:build": "npm run build && npm run deploy",
     "deploy:preview:build": "npm run build && npm run deploy:preview",
     "verify-deployment": "node verify-deployment.js"
