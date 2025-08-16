@@ -3,6 +3,7 @@
 
 name = "keyper"
 compatibility_date = "2024-11-01"
+pages_build_output_dir = "dist"
 
 # Environment variables (set these in Cloudflare dashboard)
 # VITE_SUPABASE_URL = "your-supabase-url"
